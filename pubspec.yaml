@@ -1,0 +1,54 @@
+name: tonecraft
+description: ToneCraft — Discover, preview, and set stunning ringtones & wallpapers.
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP client for API calls
+  http: ^1.2.1
+
+  # Audio playback for ringtone previews
+  audioplayers: ^6.0.0
+
+  # File system paths (downloads, app storage)
+  path_provider: ^2.1.3
+
+  # Runtime permissions (storage, audio settings)
+  permission_handler: ^11.3.1
+
+  # Local persistence for favourites & onboarding flag
+  shared_preferences: ^2.2.3
+
+  # Cached network images with placeholder support
+  cached_network_image: ^3.3.1
+
+  # Shimmer loading skeleton
+  shimmer: ^3.0.0
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/Outfit-Regular.ttf
+        - asset: assets/fonts/Outfit-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Outfit-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Outfit-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Outfit-ExtraBold.ttf
+          weight: 800
