@@ -254,8 +254,5 @@ Add the following to `android/app/src/main/AndroidManifest.xml`:
 
 ---
 
-## Credits
 
-- **Ringtones**: [Jamendo](https://www.jamendo.com) — free music under Creative Commons licenses
-- **Wallpapers**: [Unsplash](https://unsplash.com) — free high-resolution photos
 - **Developed by**: Muhammad Atif Javeid
